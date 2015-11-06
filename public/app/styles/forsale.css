@@ -1,0 +1,49 @@
+.forsale-pic {
+  width: 50%;
+  position: relative;
+  top: 350px;
+  left: 10%;
+  box-shadow: 5px 5px 2.5px grey;
+}
+.forsale-specs {
+  width: 25%;
+  position: absolute;
+  right: 10%;
+  top: 350px;
+  height: 600px;
+  font-family: Georgia, serif;
+}
+.forsale-name {
+  position: absolute;
+  left: 10%;
+  top: 300px;
+  font-size: 36px;
+  font-family: Georgia, serif;
+}
+.forsale-footbar {
+  position: relative;
+  top: 400px;
+}
+.forsale-price {
+  position: relative;
+
+
+}
+.forsale-price h6 {
+  font-size: 32px;
+  border-bottom: 2px solid black;
+}
+.forsale-specifications {
+  position: relative;
+
+}
+.forsale-specifications h6 {
+  font-size: 32px;
+  border-bottom: 2px solid black;
+}
+.forsale-price ul li {
+  font-size: 22px;
+}
+.forsale-specifications ul li {
+  font-size: 22px;
+}

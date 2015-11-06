@@ -1,0 +1,61 @@
+.fab-pic-holder {
+  position: relative;
+  width: 80%;
+  height: 500px;
+  left: 10%;
+}
+.fabrication-pic-1 {
+  position: relative;
+  height: 400px;
+  width: 500px;
+  top: 200px;
+}
+.fabrication-pic-2 {
+  position: relative;
+  top: 200px;
+  width: 550px;
+}
+.fabrication-pic-3 {
+  position: relative;
+  top: 200px;
+  height: 400px;
+  width: 250px;
+}
+.fabrication-pic-4 {
+  position: relative;
+  top: 187px;
+  width: 700px;
+}
+.fabrication-pic-5 {
+  position: relative;
+  width: 600px;
+  height: 400px;
+  top: 200px;
+}
+
+.footbar-fabrication {
+  position: relative;
+  top: 700px;
+}
+.fabrication-words {
+  display: flex;
+  position: relative;
+  width: 80%;
+  height: 100px;
+  top: 590px;
+  left: 10%;
+}
+.fabrication-words h1 {
+  flex: .70;
+  margin-left: 200px;
+  font-size: 72px;
+  bottom: 150px;
+  right: 25px;
+  position: relative;
+  font-family: Georgia, serif;
+}
+.fabrication-words p {
+  flex: .90;
+  font-size: 25px;
+  font-family: Georgia, serif;
+}

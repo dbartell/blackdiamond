@@ -1,0 +1,81 @@
+.white-background {
+    position: absolute;
+    background-color: white;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 20%;
+    z-index: 150;
+}
+.logo {
+    position: absolute;
+    left: 10%;
+    top: 20px;
+    z-index: 999;
+    width: 190px;
+    height: auto;
+}
+.black-logo {
+    position: absolute;
+    left: 20%;
+    height: auto;
+    width: 400px;
+}
+.welding-logo {
+    position: absolute;
+    top: 45%;
+    left: 21%;
+    height: auto;
+    width: 475px;
+}
+.black-bar {
+    width: 100%;
+    height: 60px;
+    position: absolute;
+    top: 20%;
+    left: 0px;
+    background-color: black;
+    z-index: 100;
+}
+.nav-bar {
+    width: 65%;
+    height: 10px;
+    position: relative;
+    top: 35%;
+    left: 18%;
+    font-size: 18px;
+    font: georgia, serif;
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+    display: flex;
+}
+.social-bar {
+    position: absolute;
+    top: 75%;
+    right: 30%;
+}
+.icon-size {
+    height: auto;
+    width: 34px;
+}
+.header-info {
+    position: absolute;
+    right: 12%;
+    top: 8%;
+    width: 300px;
+    color: black;
+    text-align: right;
+}
+.blk-header-number {
+    font-size: 36px;
+    font-weight: 800;
+    font-family: Georgia, serif;
+}
+.blk-header-contact {
+    font-size: 22px;
+    font-weight: 300;
+    font-family: Georgia, serif;
+}
+.flex-point-sevenfive {flex: 0.75; text-align: center; font-family: Georgia, serif;}
+.flex-one {flex: 1; text-align: center; font-family: Georgia, serif;}
