@@ -1,4 +1,4 @@
-angular.module('blackApp', ['ui.router'])
+angular.module('blackApp', ['ui.router', 'ui.materialize'])
 
 .config(function($stateProvider, $urlRouterProvider) {
 
@@ -7,7 +7,8 @@ angular.module('blackApp', ['ui.router'])
   $stateProvider
     .state('home', {
       url: "/home",
-      templateUrl: "app/views/home.html"
+      templateUrl: "app/views/home.html",
+      controller: 'homeCtrl'
     })
 
     // _______BUILD________
@@ -48,5 +49,5 @@ angular.module('blackApp', ['ui.router'])
     .state('forsale', {
       url: "/forsale",
       templateUrl: "app/views/forsale.html"
-    })
+    });
   });

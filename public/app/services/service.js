@@ -6,6 +6,6 @@ angular.module('blackApp')
       url: '/build/hotoil'
     }).then(function(response) {
       return response;
-    })
-  }
-})
+    });
+  };
+});

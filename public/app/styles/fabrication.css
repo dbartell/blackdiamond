@@ -5,41 +5,46 @@
   left: 10%;
 }
 .fabrication-pic-1 {
-  position: relative;
-  height: 400px;
-  width: 500px;
+  position: absolute;
+  height: 300px;
+  width: 34%;
   top: 200px;
 }
 .fabrication-pic-2 {
-  position: relative;
+  position: absolute;
+  left: 355px;
   top: 200px;
-  width: 550px;
+  width: 34%;
+  height: 300px;
 }
 .fabrication-pic-3 {
-  position: relative;
+  position: absolute;
   top: 200px;
-  height: 400px;
-  width: 250px;
+  left: 710px;
+  height: 300px;
+  width: 28%;;
 }
 .fabrication-pic-4 {
-  position: relative;
-  top: 187px;
-  width: 700px;
+  position: absolute;
+  top: 505px;
+  width: 49%;
+  height: 300px;
 }
 .fabrication-pic-5 {
-  position: relative;
-  width: 600px;
-  height: 400px;
-  top: 200px;
+  position: absolute;
+  width: 48%;
+  height: 300px;
+  top: 505px;
+  left: 505px;
 }
 
 .footbar-fabrication {
   position: relative;
-  top: 700px;
+  top: 600px;
 }
 .fabrication-words {
   display: flex;
-  position: relative;
+  position: absolute;
   width: 80%;
   height: 100px;
   top: 590px;
@@ -49,13 +54,15 @@
   flex: .70;
   margin-left: 200px;
   font-size: 72px;
-  bottom: 150px;
-  right: 25px;
-  position: relative;
+  top: 150px;
+  right: 50px;
+  position: absolute;
   font-family: Georgia, serif;
 }
 .fabrication-words p {
   flex: .90;
+  position: absolute;
+  top: 300px;
   font-size: 25px;
   font-family: Georgia, serif;
 }

@@ -1,11 +1,11 @@
 .google-map {
   position: relative;
-  left: 15%;
-  top: 300px;
-  width: 70%;
+  left: 3%;
+  top: 225px;
+  width: 50%;
   height: 500px;
 }
 .footbar-contact {
     position: relative;
-    top: 450px;
+    top: 375px;
 }

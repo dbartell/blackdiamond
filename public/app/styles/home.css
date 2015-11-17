@@ -1,17 +1,19 @@
 .megatron {
     position: relative;
-    top: 10%;
+    top: 0;
     left: 0px;
     width: 100%;
     height: auto;
     z-index: -100;
+    margin-top: 175px;
 }
+
 .services {
   position: relative;
-  top: 0px;
+  top: 0;
   width: 90%;
   left: 3%;
-  height: 400px;
+  height: 250px;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -22,30 +24,30 @@
 .service-div {
   position: relative;
   text-align: center;
-  width: 350px;
-  height: 400px;
+  width: 275px;
+  height: 250px;
   float: left;
   margin: 2px;
-  margin-bottom: 80px;
+  margin-bottom: 0px;
   margin-top: 10px;
 }
 .service-div h1 {
-  font-size: 34px;
+  font-size: 25px;
   border-bottom: 2px solid black;
   font-family: Georgia, serif;
 }
 .service-div img {
-  width: 350px;
-  height: 250px;
+  width: 250px;
+  height: 175px;
   box-shadow: 5px 5px 2.5px grey;
 }
 .service-div p {
-  font-size: 22px;
+  font-size: 20px;
   font-family: Georgia, serif;
 }
-.footbar-home {
+.home-footer {
   position: relative;
-  top: 100px;
+  top: 275px;
 }
 @media (max-width: 1615px) {
   .footbar-home {

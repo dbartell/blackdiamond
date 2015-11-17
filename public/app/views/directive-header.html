@@ -17,10 +17,21 @@
 <div class="black-bar">
     <div class="nav-bar">
             <div class="flex-point-sevenfive"><a href="#/home">Home</a></div>
-            <div class="flex-point-sevenfive">Build</div>
+            <!-- Dropdown Trigger -->
+            <a class='dropdown-button build-button' href='javascript:void(0);' data-activates='demoDropdown' dropdown data-hover="true">
+              Build
+            </a>
             <div class="flex-point-sevenfive"><a href="#/forsale">For Sale</a></div>
             <div class="flex-one"><a href="#/fabrication">Fabrication</a></div>
             <div class="flex-one"><a href="#/diesel">Diesel Mechanic</a></div>
             <div class="flex-one"><a href="#/contact">Contact Us</a></div>
     </div>
 </div>
+
+<!-- Dropdown Structure -->
+<ul id='demoDropdown' class='dropdown-content'>
+    <li><a href="#/build/hotOilTrucks"><p class="text-black">Hot Oil Trucks</p></a></li>
+    <li><a href="#/build/fracWaterHeatersTractor"><p class="text-black">Frac Water Heater Tractor</p></a></li>
+    <li><a href="#/build/fracWaterHeatersTrailer"><p class="text-black">Frac Water Heater Trailer</p></a></li>
+    <li><a href="#/build/highPressureSkidPump"><p class="text-black">High Pressure Pump Skid</p></a></li>
+</ul>

@@ -5,6 +5,6 @@ var Schema = new mongoose.Schema({
       name: {type: String},
       info: {type: String}
     }]
-})
+});
 
 module.exports = mongoose.model('hotOilTruck', Schema);
