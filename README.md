@@ -1,6 +1,6 @@
 # Black Diamond Welding & Diesel (Revamp)
 
-AngularJS **blackdiamondwd.herokuapp.com** in action http://blackdiamondwd.heroukuapp.com/
+AngularJS http://blackdiamondwd.herokuapp.com/
 Wix.com **blackdiamondwd.com** in action http://blackdiamondwd.com/
 
 ###General Info
